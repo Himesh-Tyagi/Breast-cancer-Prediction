@@ -6,10 +6,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 import pickle
-from PIL import Image
 
-
-photo= "C:\\Users\\DELL PC\\Downloads"
 # Load pre-trained model and scaler
 with open('bc.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
@@ -57,16 +54,13 @@ st.write("This app predicts Breast Cancer using a machine learning model. It det
 #from git 
 
 st.sidebar.header("Breast Cancer Predictor `App 👧🏻`")
-image = np.array(Image.open(photo))
-st.sidebar.image(image)
-st.sidebar.markdown("<hr/>", unsafe_allow_html=True)
-st.sidebar.write("Please connect this App to your Citology Lab to help diagnose Breast Cancer from your tissue sample.")
 
 
 
 
 
-st.sidebar.write("Select Lab Parametres :")
+
+st.sidebar.write("Select Lab Parametres ✅:")
 
 # Define the input fields
 texture_mean = st.sidebar.slider('texture_mean', min_value=0.0, max_value=200.0, value=0.0, step=0.1)
