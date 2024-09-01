@@ -54,10 +54,10 @@ st.write("This app predicts Breast Cancer using a machine learning model. It det
 #from git 
 
 st.sidebar.header("Breast Cancer Predictor `App 👧🏻`")
-  image = np.array(Image.open(https://www.pexels.com/photo/woman-wearing-pink-ribbon-3900466/))
-  st.sidebar.image(image)
-  st.sidebar.markdown("<hr/>", unsafe_allow_html=True)
-  st.sidebar.write("Please connect this App to your Citology Lab to help diagnose Breast Cancer from your tissue sample.")
+image = np.array(Image.open(https://www.pexels.com/photo/woman-wearing-pink-ribbon-3900466/))
+st.sidebar.image(image)
+st.sidebar.markdown("<hr/>", unsafe_allow_html=True)
+st.sidebar.write("Please connect this App to your Citology Lab to help diagnose Breast Cancer from your tissue sample.")
 
 
 
