@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 import pickle
 
-photo= "C:\Users\DELL PC\Downloads\pexels-shvetsa-3900466.jpg"
+photo= "C:\\Users\DELL PC\\Downloads\\pexels-shvetsa-3900466.jpg"
 # Load pre-trained model and scaler
 with open('bc.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
