@@ -9,7 +9,7 @@ import pickle
 from PIL import Image
 
 
-photo= "C:\\Users\DELL PC\\Downloads\\pexels-shvetsa-3900466.jpg"
+photo= "C:\\Users\\DELL PC\\Downloads"
 # Load pre-trained model and scaler
 with open('bc.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
