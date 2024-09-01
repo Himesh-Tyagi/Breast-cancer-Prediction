@@ -49,7 +49,7 @@ st.title("Breast Cancer Prediction App")
 
 st.write("This app predicts Breast Cancer using a machine learning model. It determines whether a breast mass is benign (B) or malignant (M) based on the measurements.")
 
-st.sidebar.write("Select Lab Parametres:")
+st.sidebar.write("Select Lab Parametres :")
 
 # Define the input fields
 texture_mean = st.sidebar.slider('texture_mean', min_value=0.0, max_value=200.0, value=0.0, step=0.1)
