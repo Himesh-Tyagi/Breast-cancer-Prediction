@@ -45,7 +45,7 @@ def predict_cancer(features):
     return interpretation
 
 # Streamlit UI
-st.title("Breast Cancer Prediction")
+st.title("Breast Cancer Prediction App")
 
 st.write("This app predicts Breast Cancer using a machine learning model. It determines whether a breast mass is benign (B) or malignant (M) based on the measurements.")
 
