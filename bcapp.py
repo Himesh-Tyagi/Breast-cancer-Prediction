@@ -53,7 +53,7 @@ st.write("This app predicts Breast Cancer using a machine learning model. It det
 
 #from git 
 
-st.sidebar.header("Breast Cancer Predictor `App 👧🏻`")
+#st.sidebar.header("Breast Cancer Predictor `App 👧🏻`")
 
 
 
