@@ -6,6 +6,8 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 import pickle
+from PIL import Image
+
 
 photo= "C:\\Users\DELL PC\\Downloads\\pexels-shvetsa-3900466.jpg"
 # Load pre-trained model and scaler
