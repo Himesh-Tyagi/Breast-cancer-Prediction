@@ -45,9 +45,23 @@ def predict_cancer(features):
     return interpretation
 
 # Streamlit UI
+
 st.title("Breast Cancer Prediction App")
 
 st.write("This app predicts Breast Cancer using a machine learning model. It determines whether a breast mass is benign (B) or malignant (M) based on the measurements.")
+
+
+#from git 
+
+st.sidebar.header("Breast Cancer Predictor `App 👧🏻`")
+  image = np.array(Image.open(https://www.pexels.com/photo/woman-wearing-pink-ribbon-3900466/))
+  st.sidebar.image(image)
+  st.sidebar.markdown("<hr/>", unsafe_allow_html=True)
+  st.sidebar.write("Please connect this App to your Citology Lab to help diagnose Breast Cancer from your tissue sample.")
+
+
+
+
 
 st.sidebar.write("Select Lab Parametres :")
 
